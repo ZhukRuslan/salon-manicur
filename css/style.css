@@ -1,6 +1,7 @@
 :root {
     --text-font: "Roboto", sans-serif;
-    --accent-color: #ff6c00;
+    --accent-color: #e90a8c;
+    ;
 }
   
 body {
@@ -54,7 +55,7 @@ img {
   /*HEADER*/
 .header {
     width: 100%;
-    background: #240f85;
+    background: rgba(235, 162, 232, 0.6);
 }
 .navigation {
     display: flex;
@@ -74,7 +75,7 @@ img {
     padding-left: 10px;
     padding-bottom: 10px;
 }
-  .logotype {
+.logotype {
     border-radius: 30%;
 }
 .navigation-link {
@@ -84,7 +85,7 @@ img {
     line-height: 1.357;
     text-align: center;
     letter-spacing: 0.05em;
-    color: #ffffff;
+    color: #e90a8c;
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -92,11 +93,42 @@ img {
 }
 .main {
     width: 100%;
-    height: 700px;
-    background-image: url(../images/banners/title-img.jpg);
+    height: 900px;
+    background-image: url(../images/banners/576056834b82e1555051f0ed.jpg);
+    background-size: 100% 900px;
+}
+.banners {
+    width: 100%;
+    height: 100%;
+}
+.baners-title {
+    padding-top: 240px;
+    font-family: var(--text-font);
+    font-weight: 900;
+    font-size: 65px;
+    line-height: 1.357;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.banners-btn {
+    margin-top: 180px;
+    margin-left: 480px;
+    min-width: 300px;
+    height: 70px;
+    padding: 10px 28px 10px 29px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    font-size: 24px;    
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
 }
 .footer {
     width: 100%;
     height: 140px;
-    background: #240f85; 
+    background: rgba(235, 162, 232, 0.6); 
 }
