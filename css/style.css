@@ -51,6 +51,7 @@ img {
 .container {
     position: relative;
     width: 1200px;
+    height: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
