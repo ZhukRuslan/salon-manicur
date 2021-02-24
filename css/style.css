@@ -73,6 +73,7 @@ img {
     color: #ffffff;
 }
 .logo {
+    outline: none;
     margin-top: 20px;
     margin-right: 94px;
     padding-left: 10px;
@@ -95,6 +96,7 @@ img {
 }
 .navigation-link:hover,
 .navigation-link:focus {
+    outline: none;
     color: #555555;
 }
 .icon-phone {
@@ -119,10 +121,12 @@ img {
 }
 .tel-link:hover .icon-phone,
 .tel-link:focus .icon-phone {
+    outline: none;
     fill: #555555;
 }
 .tel-link:hover,
 .tel-link:focus {
+    outline: none;
     color: #555555;
 }
 .main {
@@ -163,6 +167,7 @@ img {
 }
 .banners-btn:hover,
 .banners-btn:focus {
+    outline: none;
     background-color: aqua;
     color: brown;
 }
